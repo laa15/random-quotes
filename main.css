@@ -1,0 +1,43 @@
+
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    background-color: #f5e6ef;
+  }
+.quote-container {
+    text-align: center;
+    padding: 20px;
+    border: 2px solid #333;
+    border-radius: 8px;
+    max-width: 400px;
+    background-color: #fff;
+  }
+  
+.quote-text {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+  }
+  
+button {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #f530b0;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.5s;
+  }
+  
+button:hover {
+    background-color: #f3cae9;
+  }
+#quote-author{
+    font-weight: bold;
+  }
+  
